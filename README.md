@@ -44,24 +44,10 @@ These files should contain quantitative data from mass spectrometry experiments.
 
 ## Output Files
 
-The script generates several output files at each stage of the process:
+The script generates following output files at each stage of the process:
 
-*   `proteome_initial.csv`: Initial proteomics data as CSV.
-*   `phosphoproteome_initial.csv`: Initial phosphoproteomics data as CSV.
-*   `phosphoproteome_selected.csv`: Phosphoproteomics data with selected columns.
-*   `proteome_selected.csv`: Proteomics data with selected columns.
-*   `phosphoproteome_bio.csv`: Phosphoproteomics data with technical replicates averaged.
-*   `proteome_bio.csv`: Proteomics data with technical replicates averaged.
-*   `phosphoproteome_log2.csv`: Log2-transformed phosphoproteomics data.
-*   `proteome_log2.csv`: Log2-transformed proteomics data.
-*   `phosphoproteome_imputed.csv`: Imputed phosphoproteomics data.
-*   `proteome_imputed.csv`: Imputed proteomics data.
-*   `phosphoproteome_final.csv`: Final phosphoproteomics data with categorical and numerical columns.
-*   `proteome_final.csv`: Final proteomics data with categorical and numerical columns.
-*   `filtered_combined_phospho_data.csv`: phosphoproteome data after normalization using linear regression.
-*   `filtered_phospho_data_norm.csv`: Combined, filtered, and normalized phosphoproteomics data.
 *   `differential_expression_results_light_vs_dark.csv`: Results of differential expression analysis.
-*   `volcano_plot_light_vs_dark2.jpeg`: Volcano plot visualizing differential expression.
+*   `volcano_plot_light_vs_dark.jpeg`: Volcano plot visualizing differential expression.
 *   `heatmap_numeric_data.jpeg`: Heatmap of the numeric data.
 
 ## Script Steps
